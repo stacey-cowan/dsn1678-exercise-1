@@ -26,7 +26,7 @@ body {
   padding: 0;
     background-color:#fff;
     border-radius:8px;
-    overflow:hidden;
+
 }
 
 img {
@@ -43,8 +43,15 @@ img {
     position:absolute;
     bottom: 0;
     font-family:serif;
+    font-size: 1.3rem;
     color:#fff;
-    background-color: rgba(0,0,0,.3)
+    background-color: rgba(0,0,0,.3);
+    padding: 25px;
+    width: 100%;
+}
+
+.content {
+    overflow:hidden;
 }
 
 .name {
@@ -58,11 +65,12 @@ img {
     float: left;
     border-left: 1px solid #d1d1d1;
     padding-left:2%;
-    margin-right: 25%;
+    margin-right: 20%;
 }
 
 .term {
     color:#d1d1d1;
     text-transform:uppercase;
+    font-size: 1rem;
 }
     
