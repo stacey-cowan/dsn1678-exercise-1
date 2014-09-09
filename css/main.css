@@ -52,25 +52,34 @@ img {
 
 .content {
     overflow:hidden;
+    padding-bottom: 25px;
 }
 
 .name {
     font-weight:bold;
     font-size:1.5rem;
+    margin-left: 5%;
 }
     
+.list1 {
+    list-style:none;
+    float: left;
+    padding-left:2%;
+    margin-right: 20%;
+}
 
 .list {
     list-style:none;
     float: left;
-    border-left: 1px solid #d1d1d1;
+    border-left: 1px solid #9f9f9f;
     padding-left:2%;
     margin-right: 20%;
 }
 
 .term {
-    color:#d1d1d1;
+    color:#9f9f9f;
     text-transform:uppercase;
     font-size: 1rem;
+    line-height: 1rem;
 }
     
